@@ -6,7 +6,6 @@
     "name": "turtton"
   },
   "keywords": ["review", "workflow", "tdd", "spec", "planning"],
-  "category": "productivity",
   "commands": [
     "./commands/spec.md",
     "./commands/tasks.md",

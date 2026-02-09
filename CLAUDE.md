@@ -39,3 +39,15 @@
 - 実装後に残すべき情報は CLAUDE.md または README.md に統合すること
 - レビューエージェント（requirements-reviewer, design-reviewer, tasks-reviewer）は読み取り専用。ファイルを変更してはならない
 - 実装エージェント（impl-agent）は .review/ ディレクトリを編集してはならない。チェックボックスの更新はコマンド側で行う
+
+## プラグイン検証
+
+plugin.json や marketplace.json を変更した場合、以下のコマンドで検証すること:
+
+```bash
+# プラグイン単体の検証
+claude plugin validate plugins/review-gate
+
+# マーケットプレイス全体の検証
+claude plugin validate .
+```
