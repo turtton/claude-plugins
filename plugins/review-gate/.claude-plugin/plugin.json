@@ -1,0 +1,21 @@
+{
+  "name": "review-gate",
+  "description": "要件定義→設計→タスク分解→実装の厳密なレビューゲートワークフロー。エージェントによる自動レビュー、階層タスク管理、並列実行対応。",
+  "version": "1.0.0",
+  "author": {
+    "name": "turtton"
+  },
+  "keywords": ["review", "workflow", "tdd", "spec", "planning"],
+  "category": "productivity",
+  "commands": [
+    "./commands/spec.md",
+    "./commands/tasks.md",
+    "./commands/impl.md"
+  ],
+  "agents": [
+    "./agents/requirements-reviewer.md",
+    "./agents/design-reviewer.md",
+    "./agents/tasks-reviewer.md",
+    "./agents/impl-agent.md"
+  ]
+}
