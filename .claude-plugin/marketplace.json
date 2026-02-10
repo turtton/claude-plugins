@@ -1,10 +1,10 @@
 {
-  "name": "review-gate-marketplace",
+  "name": "turtton-plugins",
   "owner": {
     "name": "turtton"
   },
   "metadata": {
-    "description": "レビューゲートシステム - 要件→設計→タスク分解→実装の各フェーズで人間のレビューを強制するワークフロー",
+    "description": "Claude Code の品質・生産性を向上させるプラグインコレクション",
     "version": "1.0.0"
   },
   "plugins": [
@@ -14,6 +14,14 @@
       "description": "要件定義→設計→タスク分解→実装の厳密なレビューゲートワークフロー。エージェントによる自動レビュー、階層タスク管理、並列実行対応。",
       "version": "1.0.0",
       "keywords": ["review", "workflow", "tdd", "spec", "planning"],
+      "category": "productivity"
+    },
+    {
+      "name": "plan-reviewer",
+      "source": "./plugins/plan-reviewer",
+      "description": "plan mode で作成された実装プランをエージェントが批判的にレビュー",
+      "version": "1.0.0",
+      "keywords": ["review", "plan", "planning", "quality"],
       "category": "productivity"
     }
   ]

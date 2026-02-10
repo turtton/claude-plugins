@@ -1,0 +1,12 @@
+{
+  "name": "plan-reviewer",
+  "description": "plan mode で作成された実装プランをエージェントが批判的にレビューするスキル",
+  "version": "1.0.0",
+  "author": {
+    "name": "turtton"
+  },
+  "keywords": ["review", "plan", "planning", "quality"],
+  "agents": [
+    "./agents/plan-reviewer.md"
+  ]
+}
