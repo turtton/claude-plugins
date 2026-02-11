@@ -15,6 +15,7 @@
     "./agents/requirements-reviewer.md",
     "./agents/design-reviewer.md",
     "./agents/tasks-reviewer.md",
-    "./agents/impl-agent.md"
+    "./agents/impl-agent.md",
+    "./agents/impl-reviewer.md"
   ]
 }
